@@ -31,6 +31,9 @@ Route::get('/y', function () {
     return view('auth.login');
 });
 
+Route::get('/x', function () {
+    return view('auth.login');
+});
 
 route::get('/afiliado/{empleado}',[AfiliadoController::class,'show']);
 
