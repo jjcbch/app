@@ -21,6 +21,7 @@ Route::get('/', function () {
 
 
 
+
 route::get('/afiliado/{empleado}',[AfiliadoController::class,'show']);
 
 route::get('/afiliado/create/',[AfiliadoController::class,'create']);
