@@ -16,7 +16,7 @@ use App\Http\Controllers\RetiroController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
 
 route::get('/afiliado/{empleado}',[AfiliadoController::class,'show']);
