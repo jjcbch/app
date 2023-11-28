@@ -19,6 +19,8 @@ Route::get('/', function () {
     return view('auth.login');
 });
 
+
+
 route::get('/afiliado/{empleado}',[AfiliadoController::class,'show']);
 
 route::get('/afiliado/create/',[AfiliadoController::class,'create']);
